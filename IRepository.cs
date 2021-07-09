@@ -14,7 +14,7 @@ namespace Repository
         bool Update<TEntity>(TEntity modifiedEntity) where TEntity : class;
 
         //Elimina una entidad del tipo ingresado y devuelve un bool 
-        bool Delete<TEntity>(TEntity deliteEntity) where TEntity : class;
+        bool Delete<TEntity>(TEntity delitedEntity) where TEntity : class;
 
         //Encuentra una entidad del tipo especificado y devuelve del mismo tipo en base a un criterio
         //La expresion sera lambda y pertenece a System.Linq.Expressions;
